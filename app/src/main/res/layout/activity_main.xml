@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_name"
+        style="@style/text_view_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre"
+        android:text="@string/text_value" />
+
+    <EditText
+        android:id="@+id/nickName_edit"
+        style="@style/text_view_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nickname_hint"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_done"
+        style="@style/text_view_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_done"
+        android:textColor="#F8F8F8" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/text_view_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        style="@style/image_star_yellow" />
+
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/text_view_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abhaya_libre"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingLeft="@dimen/size_2sp"
+            android:paddingRight="@dimen/size_2sp"
+            android:text="@string/bio_text" />
+    </ScrollView>
+
+</LinearLayout>

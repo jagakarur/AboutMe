@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="text_value">Jagadheesan Krishnan</string>
+    <string name="image_yellow_star">Yellow Star</string>
+    <string name="bio_text">ustomer Obsession:
+		○ Pivot sql implemented in pinacle module
+	•  Ownership:
+		○ Party module while HCL…went live….
+	• Are Right a Lot
+		○ Small Animation for 3 years old application
+	• Learn and be curious
+		○ Add new technology for long term fix while sprint plan (Ag-Grid/d3/joint.js)
+	• Hire and Develop the best
+		○ TCS - iOS offshore development and get the onsite opportunity
+	• Insist on the highest standards
+		○ Code quality
+		○ Eslint , unit test and functional testing automated while deployment script written
+	• Think Big
+		○ Data API with performance test and connection pooling and graphQL filter
+	• Bias for action
+		○ API caching or add filter and load balancer
+	• Frugality
+		○ Spend resource based on the need
+	• Earn Trust
+		○ I have created a video while went tour
+		○ Hear every one data point and take dissection
+	• Dive deep
+		○ Production support
+		○ Tell about the last name email issue
+
+	• Have backbone, disagree and commit
+		○ You should not shy  with majority of the forums
+	• Deliver result
+ on time result with proper plan and execution</string>
+	<string name="nickname_hint">What is your nick name?</string>
+	<string name="btn_done">Done</string>
+</resources>
