@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="myName"
+            type="com.jagakarur.aboutme.data.MyName" />
+    </data>
+
+    <LinearLayout android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -11,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/abhaya_libre"
-        android:text="@string/text_value" />
+        android:text="@={myName.name}" />
 
     <EditText
         android:id="@+id/nickName_edit"
@@ -31,11 +38,12 @@
         android:textColor="#F8F8F8" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView_nickName"
         style="@style/text_view_default"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:text="@={myName.nickName}"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -63,3 +71,4 @@
     </ScrollView>
 
 </LinearLayout>
+    </layout>
